@@ -9,6 +9,7 @@ document.getElementById('btn-history').addEventListener('click', function () {
 });
 
 
+
 // Calculate Noakhali Donation
 document.getElementById('btn-donate-noakhali').addEventListener('click', function (event) {
     event.preventDefault();
@@ -115,4 +116,8 @@ document.getElementById('btn-donate-quota').addEventListener('click', function (
          `
     
         document.getElementById('history-container').appendChild(div);
+});
+
+document.getElementById('btn-blog').addEventListener('click', function () {
+    window.location.href = '/blog.html';
 });
